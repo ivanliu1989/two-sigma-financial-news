@@ -1,7 +1,7 @@
 # two-sigma-financial-news
 Use news analytics to predict stock price performance $100,000
 
-[Kaggle link](https://www.kaggle.com/c/two-sigma-financial-news)
+> [Kaggle link](https://www.kaggle.com/c/two-sigma-financial-news)
 
 ---
 
@@ -62,7 +62,7 @@ The news data contains information at both the news article level and asset leve
 	3. second sentence of the body, etc
 	0. the asset being scored was not found in the news item's headline or body text. As a result, the entire news item's text (headline + body) will be used to determine the sentiment score.
 - ```relevance(float32)``` - a decimal number indicating the relevance of the news item to the asset. It ranges from 0 to 1. If the asset is mentioned in the headline, the relevance is set to 1. When the item is an alert (urgency == 1), relevance should be gauged by firstMentionSentence instead.
-- ```sentimentClass(int8) - indicates the predominant sentiment class for this news item with respect to the asset. The indicated class is the one with the highest probability.
+- ```sentimentClass(int8)``` - indicates the predominant sentiment class for this news item with respect to the asset. The indicated class is the one with the highest probability.
 - ```sentimentNegative(float32)``` - probability that the sentiment of the news item was negative for the asset
 - ```sentimentNeutral(float32)``` - probability that the sentiment of the news item was neutral for the asset
 - ```sentimentPositive(float32)``` - probability that the sentiment of the news item was positive for the asset
