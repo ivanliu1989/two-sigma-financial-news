@@ -79,3 +79,6 @@ The news data contains information at both the news article level and asset leve
 - ```volumeCounts7D(int16)``` - same as above, but for 7 days
 
 ---
+
+### TODO
+> Remove abnormal open / close prices
