@@ -82,3 +82,5 @@ The news data contains information at both the news article level and asset leve
 
 ### TODO
 > Remove abnormal open / close prices
+> Financial indicators e.g. mean reversion, momentum etc
+> https://github.com/bukosabino/ta
